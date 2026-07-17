@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "queuectl": "node src/cli/commands.js",
+  "worker": "node src/workers/backgroundWorker.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
